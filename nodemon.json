@@ -1,0 +1,8 @@
+{
+    "ignore" : ["session.json"],
+    "events": {
+        "restart": "kill-port 3002",
+        "crash": "kill-port 3002"
+      },
+      "delay": "1500"
+}
